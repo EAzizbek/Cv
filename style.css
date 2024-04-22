@@ -1,0 +1,315 @@
+body {
+    background: linear-gradient(to bottom, #000, #49c5b6, #ffffff); /* Gradient background */
+    margin: 0; /* Reset default margin */
+    font-family: Arial, sans-serif; /* Set font family */
+    color: #333; /* Default text color */
+}
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Add transition for smoother color change */
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Change color on hover */
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+}
+
+h1, h2 {
+    margin-bottom: 30px;
+}
+
+/* Home section */
+#home {
+    background: linear-gradient(to bottom right, #6C63FF, #FF6B6B); /* Gradient background */
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+/* About Me section */
+#about {
+    background: linear-gradient(to bottom right, #6C63FF, #FF6B6B);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    padding: 40px;
+}
+
+/* Projects section */
+#projects {
+    background: linear-gradient(to bottom right, #6C63FF, #FF6B6B);
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    section {
+        padding: 40px 0;
+    }
+
+    h1, h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        padding: 20px 0;
+    }
+}
+
+
+.home-content {
+    color: #001f3f;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.home-content h1 {
+    color: #001f3f;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+
+.home-content #p1 {
+    color: #001f3f;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+.scroll-down-link {
+    display: inline-block;
+    background-color: #49c5b6;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.scroll-down-link:hover {
+    background-color: #007bff;
+}
+
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Change to your desired button color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Change to a slightly darker shade on hover */
+}
+
+.profile-picture {
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    border-radius: 50%; /* Make the picture round */
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
+
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-content h2 {
+    margin-bottom: 30px;
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Skills, Education, Work Experience, and Personal Interests Sections */
+.skills, .education, .personal-interests {
+    margin-top: 40px;
+    background-color: #fff; /* White background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.skills h3, .education h3,  .personal-interests h3 {
+    margin-bottom: 15px;
+}
+
+.skills ul, .education p, . .personal-interests p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li, .personal-interests ul li {
+    display: inline-block;
+    background-color: #007bff; /* Blue background for skill tags */
+    color: #fff;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.skills ul li:last-child, .personal-interests ul li:last-child {
+    margin-right: 0;
+}
+
+/* Projects Section */
+
+#projects h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333; /* Dark text color */
+}
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease; /* Add transition for smoother hover effect */
+}
+
+.project:hover {
+    transform: translateY(-5px); /* Move project card slightly up on hover */
+}
+
+.project h3 {
+    margin-bottom: 10px;
+}
+
+.project p {
+    margin-bottom: 20px;
+    color: #666; /* Gray text color */
+}
+
+.project img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project a {
+    text-decoration: none;
+    color: #333; /* Dark text color */
+    font-weight: bold;
+}
+
+.project a:hover {
+    color: #49c5b6; /* Change text color on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact-me {
+    width: 45%;
+}
+
+.contact-me h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.contact-info ul, .social-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info li, .social-links li {
+    margin-bottom: 10px;
+}
+
+.map-container {
+    width: 100%;
+    max-width: 400px; /* Adjust map width as needed */
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #49c5b6;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: #007bff;
+}
+
+/* Copyright */
+.copyright {
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
+
